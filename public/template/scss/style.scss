@@ -1,0 +1,136 @@
+// Main Sass File
+.card-body{
+    background: #f8f9fa;
+}
+.navbar{
+     box-shadow: 2px 2px 5px red;
+    opacity: 0.9;
+    background: #fff;
+}
+#home {
+    background:#f8f9fa;
+}
+.active {
+    border-bottom: 2px solid red;
+}
+.img-wrapper {
+  position: relative;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+.btn-responsive {
+  /* matches 'btn-md' */
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+@media (max-width:760px) { 
+    /* matches 'btn-xs' */
+    .btn-responsive {
+        padding: 1px 5px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+}
+
+.img {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+#main-footer{
+    border-top: 2px solid black;
+}
+#quote-section{
+    border-top: 2px solid black;
+}
+
+#card-1:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+    background: black;
+    
+    
+}
+
+#card-2:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+      background: black;
+    
+     
+}
+#card-3:hover{
+     opacity: 0.9;
+    transform: scale(1.1);
+      background: black;
+    
+}
+#card-4:hover{
+     opacity: 0.9;
+    transform: scale(1.1);
+      background: black;
+    
+}
+#card-5:hover{
+       opacity: 0.9;
+    transform: scale(1.1);
+      background: black;
+}
+#card-6:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+      background: black;
+    
+}
